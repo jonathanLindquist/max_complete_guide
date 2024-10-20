@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/jonathanlindquist/projects/react/nextjs/udemy/max_complete_guide/section_1_starter_project/app/layout\":[\"static/media/463dafcda517f24f-s.p.woff\",\"static/media/4473ecc91f70f139-s.p.woff\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
