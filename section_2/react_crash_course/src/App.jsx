@@ -1,16 +1,23 @@
 import Post from './components/Post';
+import PostList from './components/PostList.jsx';
 
 const names = ["Jonathan", "Manuel"]
 
 function App() {
-  const chosenName = Math.random() > 0.5 ? names[0] : names[1];
+  const posts = [
+    {
+      author: "Jonathan",
+      body: "This is a post by Jonathan"
+    },
+    {
+      author: "Manuel",
+      body: "This is a post by Manuel"
+    }
+  ]
 
   return (
     <main>
-      <Post author={chosenName} body={"Hello, world!"} />
-      <Post author={chosenName} />
-      <Post author={chosenName} />
-      <Post author={chosenName} />
+     <PostList posts={posts} />
     </main>
   );
 }
